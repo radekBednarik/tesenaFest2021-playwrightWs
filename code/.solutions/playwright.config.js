@@ -40,8 +40,8 @@ const config = {
     },
   ],
   // test runner configuration
-  workers: 3,
-  testMatch: new RegExp(/.*spec.js/, "gi"),
+  workers: 2,
+  testMatch: new RegExp(/09-.*spec.js/, "gi"),
   reportSlowTests: null,
 };
 
