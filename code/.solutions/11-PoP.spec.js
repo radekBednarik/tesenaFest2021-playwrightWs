@@ -60,7 +60,7 @@ const it = test.extend({
     const tesenaPage = new TesenaPage(page);
     await tesenaPage.visit();
     await tesenaPage.clickContactUs();
-    use(tesenaPage);
+    await use(tesenaPage);
   },
 });
 
